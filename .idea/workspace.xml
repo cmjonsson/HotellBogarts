@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0099bac9-2113-4c32-80e6-1b4601fe0c0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Twitter-Download-PNG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/armchair-2608301_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/facebook_circle_color-256.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hotel-1979406_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hotel-389256_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hotelroom-2205447_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/living-room-581073_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/lounge-2930070_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/people-2593251_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social-instagram-new-circle-256.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/swimming-pool-2386261_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/table-setting-1170331_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HotellBogarts" afterPath="$PROJECT_DIR$/HotellBogarts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,18 +16,32 @@
       <file leaf-file-name="fotogalleri.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HotellBogarts/fotogalleri.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="337">
+              <caret line="45" column="6" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="45" selection-end-column="6" />
+              <folding>
+                <element signature="e#3491#3497#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotellBogarts.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HotellBogarts/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HotellBogarts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HotellBogarts/HotellBogarts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -77,8 +63,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HotellBogarts/fotogalleri.html" />
         <option value="$PROJECT_DIR$/HotellBogarts/HotellBogarts.css" />
+        <option value="$PROJECT_DIR$/HotellBogarts/fotogalleri.html" />
+        <option value="$PROJECT_DIR$/HotellBogarts/contact.html" />
       </list>
     </option>
   </component>
@@ -183,12 +170,12 @@
       <updated>1510822503150</updated>
       <workItem from="1510822504415" duration="404000" />
       <workItem from="1510831499878" duration="105000" />
-      <workItem from="1510831641716" duration="3840000" />
+      <workItem from="1510831641716" duration="4975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4349000" />
+    <option name="totallyTimeSpent" value="5484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="71" width="1255" height="566" extended-state="0" />
@@ -245,19 +232,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotellBogarts/fotogalleri.html">
+    <entry file="file://$PROJECT_DIR$/HotellBogarts/HotellBogarts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotellBogarts/HotellBogarts.css">
+    <entry file="file://$PROJECT_DIR$/HotellBogarts/fotogalleri.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="337">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <element signature="e#3491#3497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotellBogarts/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
