@@ -2,7 +2,7 @@ footer
 {
 display: flex;
     justify-content: space-around;
-    background-color: #857a78
+    background-color: rgba(186,172,165,0.9)
 }
 nav
 {
