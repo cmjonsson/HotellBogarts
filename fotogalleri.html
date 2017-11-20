@@ -2,9 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <script src="../jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="HotellBogarts.css" rel="stylesheet">
+    <title>Hotell Bogarts</title>
 </head>
 <body>
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Hotell Bogarts <span class="glyphicon glyphicon-bed"></span></a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+        <ul class="navbar-nav nav">
+            <li><a href="index.html">Startsida</a></li>
+            <li><a class="dropdown" data-toggle="dropdown" href="#">Våra rum <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Våra rum</a></li>
+                    <div class="dropdown-header">Enkelt</div>
+                    <li><a href="#">Enkelrum</a></li>
+                    <li><a href="#">Enkel deluxé</a></li>
+                    <div class="dropdown-header">Dubbelt</div>
+                    <li><a href="#">Dubbelrum</a></li>
+                    <li><a href="#">Dubbelrum deluxé</a></li>
+                    <div class="dropdown-header">Lyxigt</div>
+                    <li><a href="#">Svit</a></li>
+                    <li><a href="#">Presidentsvit</a></li>
+                </ul>
+            </li>
+            <li class="active"><a href="fotogalleri.html">Fotogalleri</a></li>
+            <li><a href="blogg.html">Blogg</a></li>
+            <li><a href="about.html">Om</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="col-lg-12">
+    <div class="jumbotron">
+        <h2>Fotogalleri </h2>
+    </div>
+    </div>
+    <div class="container">
+    <div class="row">
+<div class="col-sm-4">
+    <a href="#bild1" data-toggle="modal">
+        <img src="../images/hotel-389256_640.jpg" class="thumbnail img-responsive"> </a>
+    <a href="#bild2" data-toggle="modal">
+        <img src="../images/hotel-1979406_640.jpg"  class="thumbnail img-responsive ">  </a>
+    <a href="#bild3" data-toggle="modal">
+        <img src="../images/hotelroom-2205447_640.jpg" class="thumbnail img-responsive"> </a>
 
+</div>
+    <div class="col-sm-4">
+        <a href="#bild4" data-toggle="modal">
+            <img src="../images/lounge-2930070_640.jpg" class="thumbnail img-responsive"> </a>
+        <a href="##bild5" data-toggle="modal">
+            <img src="../images/people-2593251_640.jpg" class="thumbnail img-responsive"> </a>
+        <a href="#bild6" data-toggle="modal">
+            <img src="../images/swimming-pool-2386261_640.jpg" class="thumbnail img-responsive"> </a>
+        </div>
+        <div class="col-sm-4">
+            <a href="##bild7" data-toggle="modal">
+                <img src="../images/table-setting-1170331_640.jpg" class="thumbnail img-responsive"></a>
+            <a href="#bild8" data-toggle="modal">
+                <img src="../images/armchair-2608301_640.jpg" class="thumbnail img-responsive"> </a>
+            <a href="#bild9" data-toggle="modal">
+                <img src="../images/living-room-581073_640.jpg" class="thumbnail img-responsive"></a>
+        </div>
+    </div>
+        <div class="modal fade" id="bild1">
+            <div class="modal-dialog">
+                <img src="../images/hotel-389256_640.jpg" alt="First picture" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild2">
+            <div class="modal-dialog">
+                <img src="../images/hotel-1979406_640.jpg" alt="First picture" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild3">
+            <div class="modal-dialog">
+                <img src="../images/hotelroom-2205447_640.jpg" alt="First picture" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild4">
+            <div class="modal-dialog">
+                <img src="../images/lounge-2930070_640.jpg" alt="First picture" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild5">
+            <div class="modal-dialog">
+                <img src="../images/people-2593251_640.jpg" alt="People lounging" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild6">
+            <div class="modal-dialog">
+                <img src="../images/swimming-pool-2386261_640.jpg" alt="Swimming pool" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild7">
+            <div class="modal-dialog">
+                <img src="../images/table-setting-1170331_640.jpg" alt="Dinner setting" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild8">
+            <div class="modal-dialog">
+                <img src="../images/armchair-2608301_640.jpg" alt="Interior design" class="img-responsive img-rounded">
+            </div>
+        </div>
+        <div class="modal fade" id="bild9">
+            <div class="modal-dialog">
+                <img src="../images/living-room-581073_640.jpg" alt="Living room design" class="img-responsive img-rounded" >
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+<footer>
+    <div id="footer1">
+    <p>&copy; Hotell Bogarts</p>
+        <p>Tel +12 345 5689</p>
+        <p>Adress: Portland road 3, 987 456 Portland, OR</p>
+    </div>
+    <div id="footer2">
+<img src="../images/facebook_circle_color-256.png" height="30" width="30">
+    <img src="../images/social-instagram-new-circle-256.png" height="30" width="30">
+    <img src="../images/Twitter-Download-PNG.png" height="30" width="30">
+    </div>
+</footer>
 </body>
 </html>
