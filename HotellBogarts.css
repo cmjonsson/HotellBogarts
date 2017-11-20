@@ -2,11 +2,11 @@ footer
 {
 display: flex;
     justify-content: space-around;
-    background-color: #dbd4f8;
+    background-color: #857a78
 }
 nav
 {
-    background-color: #dbd4f8;
+    background-color: #857A78;
 }
 footer > div > img
 {
@@ -14,14 +14,14 @@ footer > div > img
 
 }
 
-#footer1
+footer
+
 {
-    display: inline-block;
-    align-items: flex-start;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#footer2
+body
 {
-    display: flex;
-    align-items: flex-end;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+
