@@ -28,15 +28,18 @@ body
 .jumbotron
 {
     background-color: #c1b4ae;
+    border-radius: 5px;
 }
 .navbar
 {
     background-color: #c1b4ae;
+    color: whitesmoke;
 }
 
 .navbar-default
 {
     background-color: #c1b4ae;
+    color: whitesmoke;
 }
 #navbar
 {
@@ -50,7 +53,7 @@ background-color: #c1b4ae;
     color: whitesmoke;
 }
 
-li < a
+li > a
 {
     color: whitesmoke;
 }
@@ -72,7 +75,11 @@ li < a
     color: whitesmoke;
 }
 
-
+.navbar-header
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
 
 a
 {
@@ -84,3 +91,38 @@ main
     background-color: rgba(231,219,217,0.67);
 }
 
+#contact
+{
+    margin-bottom: 15px;
+}
+
+.well
+{
+    background-color: #c1b4ae;
+}
+
+body
+{
+    background-color: rgba(231,219,217,0.67);
+}
+
+.navbar-collapse
+{
+    color: whitesmoke;
+}
+
+.col-md-7
+{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(64,61,65,0.67);
+}
+
+#bild1
+{
+    box-shadow: #857A78;
+}
+href
+{
+    color: whitesmoke;
+}
