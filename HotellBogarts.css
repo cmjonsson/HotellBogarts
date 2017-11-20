@@ -6,7 +6,7 @@ display: flex;
 }
 nav
 {
-    background-color: #857A78;
+    background-color: #c1b4ae;
 }
 footer > div > img
 {
@@ -27,26 +27,26 @@ body
 
 .jumbotron
 {
-    background-color: #857A78;
+    background-color: #c1b4ae;
 }
 .navbar
 {
-    background-color: #857A78;
+    background-color: #c1b4ae;
 }
 
 .navbar-default
 {
-    background-color: #857A78;
+    background-color: #c1b4ae;
 }
 #navbar
 {
-background-color: #857A78;
+background-color: #c1b4ae;
     color: whitesmoke;
 }
 
 .dropdown
 {
-    background-color: #857A78;
+    background-color: #c1b4ae;
     color: whitesmoke;
 }
 
@@ -57,13 +57,13 @@ li < a
 
 .dropdown-header
 {
-    background-color: #857A78;
+    background-color: #c1b4ae;
     color: whitesmoke;
 }
 
 .dropdown-menu
 {
-    background-color: #857A78;
+    background-color: #c1b4ae;
     color: whitesmoke;
 }
 
@@ -72,10 +72,7 @@ li < a
     color: whitesmoke;
 }
 
-.jumbotron > h2
-{
-    color: whitesmoke;
-}
+
 
 a
 {
@@ -84,6 +81,6 @@ a
 
 main
 {
-    background-color: rgba(203,191,189,0.77);
+    background-color: rgba(231,219,217,0.67);
 }
 
