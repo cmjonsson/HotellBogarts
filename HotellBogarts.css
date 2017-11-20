@@ -1,0 +1,27 @@
+footer
+{
+display: flex;
+    justify-content: space-around;
+    background-color: #dbd4f8;
+}
+nav
+{
+    background-color: #dbd4f8;
+}
+footer > div > img
+{
+    margin: 8px;
+
+}
+
+#footer1
+{
+    display: inline-block;
+    align-items: flex-start;
+}
+
+#footer2
+{
+    display: flex;
+    align-items: flex-end;
+}
