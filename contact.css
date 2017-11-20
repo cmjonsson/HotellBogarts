@@ -1,0 +1,119 @@
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(186,172,165,0.9)
+}
+nav
+{
+    background-color: #c1b4ae;
+}
+footer > div > img
+{
+    margin: 8px;
+
+}
+
+footer
+
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.well-sm
+{
+    background: #c1b4ae ;
+    padding-left: 8px;
+}
+.navbar
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
+
+.navbar-default
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
+#navbar
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
+
+.dropdown
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
+
+li > a
+{
+    color: whitesmoke;
+}
+
+.dropdown-header
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
+
+.dropdown-menu
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
+
+.navbar-brand
+{
+    color: whitesmoke;
+}
+
+.navbar-header
+{
+    background-color: #c1b4ae;
+    color: whitesmoke;
+}
+
+a
+{
+    color: whitesmoke;
+}
+
+main
+{
+    background-color: rgba(231,219,217,0.67);
+}
+
+#contact
+{
+    margin-bottom: 15px;
+}
+
+.well
+{
+    background-color: #c1b4ae;
+}
+
+body
+{
+    background-color: rgba(231,219,217,0.67);
+}
+
+.navbar-collapse
+{
+    color: whitesmoke;
+}
+
+.col-md-7
+{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(64,61,65,0.67);
+}

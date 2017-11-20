@@ -29,6 +29,7 @@ body
 {
     background-color: #c1b4ae;
     border-radius: 5px;
+    padding-left: 5px;
 }
 .navbar
 {
@@ -118,11 +119,3 @@ body
     border-color: rgba(64,61,65,0.67);
 }
 
-#bild1
-{
-    box-shadow: #857A78;
-}
-href
-{
-    color: whitesmoke;
-}
