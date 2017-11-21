@@ -54,32 +54,21 @@ body, html {
 
 }
 
-.panel-front .panel-heading .panel-title img {
-    border-radius:3px 3px 0 0;
+.tab-content {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 25px;
 }
 
-.panel-front .panel-heading {
-    padding: 0;
+.nopadding {
+    margin-top: 25px;
 }
 
-.panel-front .panel-heading h4 {
-
+p, h3 {
+    color: black;
 }
 
-.panel-front .panel-body h4 {
-    font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-
-.rowContainer {
-    margin-top: 50px;
-}
-
-
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+div > div > ul > li {
+    background-color: hsla(185, 15%, 25%, 1);
+    overflow: hidden;
 }
