@@ -1,65 +1,85 @@
 body, html {
-    height: 92%;
+    height: 100%;
 }
 
 .parallax {
     /* The image used */
     background-image: url('Images/all-rooms-background/amsterdam-1998140_1920.jpg');
+
     /* Full height */
     height: 100%;
+    min-height: 600px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    position: relative;
+    border: solid 1px whitesmoke;
 }
 
 .parallax2 {
     /* The image used */
-    min-height: 400px;
-
+    background-image: url('Images/all-rooms-background/conference-room-1146244_1920.jpg');
     /* Full height */
     height: 100%;
+    min-height: 600px;
 
     /* Create the parallax scrolling effect */
-    background: url('Images/all-rooms-background/conference-room-1146244_1920.jpg') no-repeat fixed center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    opacity: 0.7;
+    border: solid 1px whitesmoke;
 }
 
 .parallax3 {
     /* The image used */
-    min-height: 400px;
+    background-image: url('Images/all-rooms-background/terrace-1030758_1920.jpg');
 
     /* Full height */
     height: 100%;
+    min-height: 600px;
 
     /* Create the parallax scrolling effect */
-    background: url('Images/all-rooms-background/terrace-1030758_1920.jpg') no-repeat fixed center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    opacity: 0.7;
+    border: solid 1px whitesmoke;
+
 }
 
-
-
-.rowContainer {
-    background-color: hsla(218, 5%, 25%, 0.19);
-    border: solid 1px black;
+.panel-front .panel-heading .panel-title img {
+    border-radius:3px 3px 0 0;
 }
 
-.panel {
-    background-color: hsla(218, 5%, 25%, 0.19);
-    margin-top: 15px;
+.panel-front .panel-heading {
+    padding: 0;
 }
 
-.panel-footer {
-    background-color: hsla(218, 5%, 25%, 0.19);
+.panel-front .panel-heading h4 {
+
+}
+
+.panel-front .panel-body h4 {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.text-right {
+    margin-top: 10px;
 }
 
 .nounderline:hover {
+    text-decoration: none;
+}
+
+.nounderline {
     text-decoration: none;
 }
 
@@ -67,3 +87,19 @@ a {
     color: black;
 }
 
+.rowContainer {
+    margin-top: 50px;
+}
+
+.txtPanel {
+    margin-top: 25px;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+}
