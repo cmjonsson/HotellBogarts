@@ -1,10 +1,10 @@
 .panel-front .panel-heading .panel-title img {
-    border-radius:3px 3px 0px 0px;
+    border-radius:3px 3px 0 0;
     width:100%;
 }
 
 .panel-front .panel-heading {
-    padding: 0px;
+    padding: 0;
 }
 
 .panel-front .panel-heading h4 {
