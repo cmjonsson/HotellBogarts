@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    position: relative;
 }
 
 .parallax {
@@ -61,44 +62,21 @@ body, html {
     padding: 0;
 }
 
+.panel-front .panel-heading h4 {
+
+}
+
 .panel-front .panel-body h4 {
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-.text-right {
-    margin-top: 10px;
-}
-
-.nounderline:hover {
-    text-decoration: none;
-}
-
-.nounderline {
-    text-decoration: none;
-}
-
-a {
-    color: black;
-}
 
 .rowContainer {
     margin-top: 50px;
 }
 
-.txtPanel {
-    margin-top: 25px;
-
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-p {
-    padding: 0;
-}
 
 @media only screen and (max-device-width: 1024px) {
     .parallax {
