@@ -53,8 +53,12 @@ body, html {
 
 }
 
-.panel-front .panel-heading .panel-title img {
+.panel-front .panel-heading .panel-title  {
     border-radius:3px 3px 0 0;
+}
+
+img {
+    border-radius: 3px;
 }
 
 .panel-front .panel-heading {
@@ -64,7 +68,6 @@ body, html {
 .panel-front .panel-body h4 {
     font-weight: bold;
     margin-top: 5px;
-    margin-bottom: 15px;
 }
 
 .text-right {
@@ -84,7 +87,7 @@ a {
 }
 
 .rowContainer {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .txtPanel {
