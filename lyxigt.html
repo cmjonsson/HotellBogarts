@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="lyxigt.css">
     <title>Lyxigt</title>
 </head>
 <body>
@@ -55,6 +56,242 @@
         <li class="active">Lyxigt</li>
     </ol>
 
+    <div class="parallax3">
+        <div class="container-fluid">
+            <div class="row nopadding">
+                <div class="col-md-6 col-xs-12 col-md-offset-3">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active bekvamligheter"><a data-toggle="tab" href="#Tab1">Svit</a></li>
+                        <li class="bekvamligheter"><a data-toggle="tab" href="#Tab2">Bekvämligheter</a></li>
+                        <li class="bekvamligheter"><a data-toggle="tab" href="#Tab3">Boka</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-12 col-md-offset-3">
+                    <div class="tab-content">
+                        <div id="Tab1" class="tab-pane fade in active">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <h3 class="text-center">Vår härliga svit står till ditt förfogande</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-sm-6">
+                                        <img src="images/All-rooms/hotel-1330834_1920.jpg" alt="Svit" class="img-responsive tab-img">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="lead">
+                                            Sviten har allt du kan önska. Vi är väldigt stolta över att erbjuda ett rum, som egentligen är mer än ett rum.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Tab2" class="tab-pane fade">
+                            <div class="panel-heading">
+                                <div class="panel-title bodyborder">
+                                    <h3 class="text-center">Detta inkluderar vi</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-xs-4 col-xs-offset-2">
+                                        <ul class="lead">
+                                            <li>Gratis mini-bar</li>
+                                            <li>50" O-Led TV</li>
+                                            <li>Städservice</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <ul class="lead">
+                                            <li>Gratis frukost</li>
+                                            <li>Gym</li>
+                                            <li>Personlig service</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Tab3" class="tab-pane fade">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <h3 class="text-center">Så här lätt bokar du!</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="name">Name</label>
+                                            <input type="text" id="name" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="email" id="email" class="form-control" required><span class="" ></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="incheckning">Incheckning</label>
+                                            <div class="input-group">
+                                                <input type="date" id="incheckning" class="form-control">
+                                                <div class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-th"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="utcheckning">Utcheckning</label>
+                                            <div class="input-group">
+                                                <input type="date" id="utcheckning" class="form-control">
+                                                <div class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-th"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="meddelande">Specifika önskemål</label>
+                                            <textarea name="message" id="meddelande" cols="10" rows="5" class="form-control" maxlength="250"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#bookingModal">
+                                            Boka
+                                        </button>
+                                        <div class="modal fade" id="bookingModal">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                                                        <h4 class="modal-title">Verifiera din bokning</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, tempore!</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Stäng</button>
+                                                        <button type="submit" class="btn btn-success">Boka</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row nopadding">
+                <div class="col-md-6 col-xs-12 col-md-offset-3">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active bekvamligheter"><a data-toggle="tab" href="#Tab4">Presidentsvit</a></li>
+                        <li class="bekvamligheter"><a data-toggle="tab" href="#Tab5">Bekvämligheter</a></li>
+                        <li class="bekvamligheter"><a data-toggle="tab" href="#Tab6">Boka</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-xs-12 col-md-offset-3">
+                    <div class="tab-content">
+                        <div id="Tab4" class="tab-pane fade in active">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <h3 class="text-center">Presidentsvit - det säger allt!</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-sm-6">
+                                        <img src="images/All-rooms/singledeluxe.jpg" alt="Presidentsvit" class="img-responsive tab-img">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p class="lead">
+                                            I vårt deluxé rum finns där lite mer frihet. Du erhåller en king-size säng och även en god gratis frukost på morgonen när du vaknar.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Tab5" class="tab-pane fade">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <h3 class="text-center">Dax att njuta</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-xs-4 col-xs-offset-2">
+                                        <ul class="lead">
+                                            <li>Mini-bar</li>
+                                            <li>42" O-Led TV</li>
+                                            <li>Städservice</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <ul class="lead">
+                                            <li>Gratis frukost</li>
+                                            <li>Gym</li>
+                                            <li>Te & Kaffe på rummet</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Tab6" class="tab-pane fade">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <h3 class="text-center">Så här lätt bokar du!</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="namn">Name</label>
+                                            <input type="text" id="namn" class="form-control" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="epost">Email</label>
+                                            <input type="email" id="epost" class="form-control" required><span class="" ></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="incheckning-deluxe">Incheckning</label>
+                                            <div class="input-group">
+                                                <input type="date" id="incheckning-deluxe" class="form-control">
+                                                <div class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-th"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="utcheckning-deluxe">Utcheckning</label>
+                                            <div class="input-group">
+                                                <input type="date" id="utcheckning-deluxe" class="form-control">
+                                                <div class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-th"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Specifika önskemål</label>
+                                            <textarea name="message" id="message" cols="10" rows="5" class="form-control" maxlength="250"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#bookingModal">
+                                            Boka
+                                        </button>
+                                        <div class="modal fade" id="bokningsModal">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                                                        <h4 class="modal-title">Verifiera din bokning</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, tempore!</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Stäng</button>
+                                                        <button type="submit" class="btn btn-success">Boka</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 </body>
