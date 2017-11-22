@@ -8,7 +8,7 @@ body, html {
 
     /* Full height */
     height: 100%;
-    min-height: 600px;
+
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -24,7 +24,7 @@ body, html {
     background-image: url('Images/all-rooms-background/conference-room-1146244_1920.jpg');
     /* Full height */
     height: 100%;
-    min-height: 600px;
+
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -41,7 +41,7 @@ body, html {
 
     /* Full height */
     height: 100%;
-    min-height: 600px;
+
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -103,8 +103,20 @@ p {
     padding: 0;
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 768px) {
     .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .parallax2 {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .parallax3 {
         background-attachment: scroll;
     }
 }
