@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    position: relative;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('Images/all-rooms-background/amsterdam-1998140_1920.jpg');
+
+    /* Full height */
+    height: 100%;
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid 1px whitesmoke;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('Images/all-rooms-background/conference-room-1146244_1920.jpg');
+    /* Full height */
+    height: 100%;
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid 1px whitesmoke;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('Images/all-rooms-background/terrace-1030758_1920.jpg');
+
+    /* Full height */
+    height: 100%;
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid 1px whitesmoke;
+
+}
+
+.tab-content {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 25px;
+}
+
+.nopadding {
+    margin-top: 25px;
+}
+
+p, h3 {
+    color: black;
+}
+
+.bekvamligheter {
+    background-color: hsla(185, 15%, 25%, 1);
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}

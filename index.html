@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Hotell Bogarts</title>
+    <link rel="stylesheet" href="enkelt.css">
 </head>
 <body>
+<div class="container-fluid">
 <nav class="navbar navbar-default">
     <div class="navbar-header">
         <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -24,35 +27,41 @@
             <li class="active"><a href="index.html">Startsida</a></li>
             <li><a class="dropdown" data-toggle="dropdown" href="#">Våra rum <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Våra rum</a></li>
-                    <div class="dropdown-header">Enkelt</div>
-                    <li><a href="#">Enkelrum</a></li>
-                    <li><a href="#">Enkel deluxé</a></li>
-                    <div class="dropdown-header">Dubbelt</div>
-                    <li><a href="#">Dubbelrum</a></li>
-                    <li><a href="#">Dubbelrum deluxé</a></li>
-                    <div class="dropdown-header">Lyxigt</div>
-                    <li><a href="#">Svit</a></li>
-                    <li><a href="#">Presidentsvit</a></li>
+                    <li><a href="all-rooms.html">Våra rum</a></li>
+                    <div class="divider"></div>
+                    <li><a href="enkelt.html">Enkelt</a></li>
+                    <div class="divider"></div>
+                    <li><a href="dubbelt.html">Dubbelt</a></li>
+                    <div class="divider"></div>
+                    <li><a href="lyxigt.html">Lyxigt</a></li>
+                    <div class="divider"></div>
                 </ul>
             </li>
             <li><a href="fotogalleri.html">Fotogalleri</a></li>
             <li><a href="blogg.html">Blog</a></li>
-            <li><a href="about.html">Om</a></li>
+            <li><a href="about2.html">Om</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
 </nav>
 
+
+
 <div class="row">
-    <div class="col-sm-8 col-sm-offset-2 hidden-xs">
+    <div class="col-sm-8 col-sm-offset-2">
         <div id="carouselId" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
                     <img src="Images/girl-2379705_1920.jpg" class="img-responsive" alt="First slide">
                     <div class="carousel-caption">
-                        <h1>Välkommen till Bogarts hotell!</h1>
-                        <p>Hos Bogarts trivs alla.</p>
+                        <h1>Välkomna!</h1>
+                        <p>Hos Bogarts vill vi att alla trivas</p>
                     </div>
                 </div>
                 <div class="item">
@@ -87,6 +96,53 @@
     </div>
 </div>
 
-
+<div class="container">
+    <hr /><h1 class="text-center">Välkomna till Hotell Bogarts</h1><hr />
+    <div class="row">
+        <div class="col-xs-4">
+            <div class="panel panel-default panel-front">
+                <div class="panel-heading">
+                    <h4 class="panel-title"><a HREF="#"><img src="Images/lebar-cm-island-2419082_1920.jpg" class="img-responsive"></a></h4>
+                </div>
+            <div class="panel-body">
+                <h4 class="text-center">20% i vårt spa</h4>
+                    Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year.
+                    <div class="text-right">
+                        <a href="#" class="btn btn-info btn-sm" role="button">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="panel panel-default panel-front">
+                <div class="panel-heading">
+                    <h4 class="panel-title"><a HREF="#"><img src="Images/breakfast-hotel-1921530_1920.jpg" class="img-responsive"></a></h4>
+                </div>
+                <div class="panel-body">
+                    <h4 class="text-center">Vi inkluderar frukosten</h4>
+                    Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year.
+                    <div class="text-right">
+                        <a href="#" class="btn btn-info btn-sm" role="button">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="panel panel-default panel-front">
+                <div class="panel-heading">
+                    <h4 class="panel-title"><a HREF="#"><img src="Images/castle-park-806854_1920.jpg" class="img-responsive"></a></h4>
+                </div>
+                <div class="panel-body">
+                    <h4 class="text-center">10% rabatt</h4>
+                    Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year.
+                    <div class="text-right">
+                        <a href="#" class="btn btn-info btn-sm" role="button">Läs mer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 </body>
 </html>

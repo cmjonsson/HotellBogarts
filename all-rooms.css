@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('Images/all-rooms-background/amsterdam-1998140_1920.jpg');
+
+    /* Full height */
+    height: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid 1px whitesmoke;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('Images/all-rooms-background/conference-room-1146244_1920.jpg');
+    /* Full height */
+    height: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid 1px whitesmoke;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('Images/all-rooms-background/terrace-1030758_1920.jpg');
+
+    /* Full height */
+    height: 100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: solid 1px whitesmoke;
+
+}
+
+.panel-front .panel-heading .panel-title  {
+    border-radius:3px 3px 0 0;
+}
+
+img {
+    border-radius: 3px;
+}
+
+.panel-front .panel-heading {
+    padding: 0;
+}
+
+.panel-front .panel-body h4 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.text-right {
+    margin-top: 10px;
+}
+
+.nounderline:hover {
+    text-decoration: none;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.rowContainer {
+    margin-top: 100px;
+}
+
+.txtPanel {
+    margin-top: 25px;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .parallax2 {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .parallax3 {
+        background-attachment: scroll;
+    }
+}

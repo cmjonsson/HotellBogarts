@@ -20,7 +20,7 @@ nav> a:hover, a:active {
 footer > div > img
 {
     margin: 8px;
-
+    width: auto;
 }
 
 footer
