@@ -2,4 +2,7 @@ img {
     width: 500px;
     padding: 6px;
 }
-
+footer > img {
+    height: 40px;
+    width: 100px;
+}

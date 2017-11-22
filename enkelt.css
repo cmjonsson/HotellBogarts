@@ -71,5 +71,5 @@ p, h3 {
 .bekvamligheter {
     background-color: hsla(185, 15%, 25%, 1);
     overflow: hidden;
-    border-radius: 5px 5px 0 0;
+    border-radius: 0 0 5px 5px;
 }
