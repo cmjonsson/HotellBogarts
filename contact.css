@@ -27,6 +27,7 @@ footer
 
 {
     font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 5px;
 }
 
 body
@@ -188,4 +189,9 @@ body
         color: white;
         background-color: #189ad6;
     }
+}
+
+#lokalak
+{
+    margin-top: 10px;
 }
