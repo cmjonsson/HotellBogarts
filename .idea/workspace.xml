@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0099bac9-2113-4c32-80e6-1b4601fe0c0b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HotellBogarts" afterPath="$PROJECT_DIR$/HotellBogarts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fotogalleri.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fotogalleri.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HotellBogarts/fotogalleri.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
@@ -36,11 +35,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mall-css.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HotellBogarts/mall-css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HotellBogarts/contact.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="248" column="16" lean-forward="false" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+            <state relative-caret-position="207">
+              <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="237" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -103,12 +112,12 @@
         <option value="$PROJECT_DIR$/HotellBogarts/HotellBogarts.css" />
         <option value="$PROJECT_DIR$/HotellBogarts/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/HotellBogarts/fotogalleri.css" />
-        <option value="$PROJECT_DIR$/HotellBogarts/mall-css.css" />
         <option value="$PROJECT_DIR$/HotellBogarts/about-css.css" />
         <option value="$PROJECT_DIR$/HotellBogarts/about2.html" />
         <option value="$PROJECT_DIR$/HotellBogarts/contact.html" />
         <option value="$PROJECT_DIR$/HotellBogarts/contact.css" />
         <option value="$PROJECT_DIR$/HotellBogarts/fotogalleri.html" />
+        <option value="$PROJECT_DIR$/HotellBogarts/mall-css.css" />
       </list>
     </option>
   </component>
@@ -209,12 +218,12 @@
       <workItem from="1510822504415" duration="404000" />
       <workItem from="1510831499878" duration="105000" />
       <workItem from="1510831641716" duration="8352000" />
-      <workItem from="1511355755481" duration="2216000" />
+      <workItem from="1511355755481" duration="2319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32659000" />
+    <option name="totallyTimeSpent" value="32762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="234" width="1247" height="508" extended-state="0" />
@@ -453,14 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotellBogarts/mall-css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HotellBogarts/images/Screen Shot 2017-11-21 at 12.11.18.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -505,14 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HotellBogarts/contact.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="248" column="16" lean-forward="false" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HotellBogarts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -528,6 +521,22 @@
           <folding>
             <element signature="e#6971#6977#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotellBogarts/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="237" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotellBogarts/mall-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
