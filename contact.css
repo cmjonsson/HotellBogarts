@@ -229,6 +229,14 @@ button
 
 }
 
+.btn-default
+{
+    background: white;
+    color: #189ad6;
+    border-style: solid;
+    border-color: #189ad6;
+}
+
 .collapse
 {
     background: white;
@@ -238,5 +246,10 @@ button
 #knapp
 {
     display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top:30px;
 
 }
+
+

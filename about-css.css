@@ -1,7 +1,11 @@
 
 body
 {
+<<<<<<< HEAD
     background-image: url('images/living-room-581073_1920.jpg') ;
+=======
+    background-image: url("images/living-room-581073_1920-2.jpg") ;
+>>>>>>> 523b3c6cb4f883d54f37f24b38354d960dc75c8f
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
