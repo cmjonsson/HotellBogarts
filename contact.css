@@ -212,44 +212,6 @@ body
     border-color: #189ad6;
 }
 
-.panel
-{
-    background: white ;
-    color: #189ad6;
-    border-radius: 5px;
-    border-color: #189ad6;
-}
-
-.panel-default
-{
-    background: white ;
-    color: #189ad6;
-    border-radius: 5px;
-    border-color: #189ad6;
-}
-
-.panel-heading
-{
-    background: white ;
-    color: #189ad6;
-    border-radius: 5px;
-    border-color: #189ad6;
-}
-.panel-body
-{
-    background: white ;
-    color: #189ad6;
-    border-radius: 5px;
-    border-color: #189ad6;
-}
-
-.row
-{
-    background: white ;
-    color: #189ad6;
-    border-radius: 5px;
-    border-color: #189ad6;
-}
 
 h3
 {
@@ -258,4 +220,23 @@ h3
     color: #189ad6;
     margin-bottom:20px;
     text-decoration: underline;
+}
+
+button
+{
+    background: white;
+    color: #189ad6;
+
+}
+
+.collapse
+{
+    background: white;
+    color: #189ad6;
+}
+
+#knapp
+{
+    display: flex;
+
 }
