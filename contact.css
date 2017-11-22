@@ -27,6 +27,7 @@ footer
 
 {
     font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 5px;
 }
 
 body
@@ -188,4 +189,54 @@ body
         color: white;
         background-color: #189ad6;
     }
+}
+
+#lokalak
+{
+    margin-top: 10px;
+}
+
+.col-md-4
+{
+    background: white ;
+    color: #189ad6;
+    border-radius: 5px;
+    border-color: #189ad6;
+}
+
+.col-lg-6
+{
+    background: white ;
+    color: #189ad6;
+    border-radius: 5px;
+    border-color: #189ad6;
+}
+
+
+h3
+{
+    display: flex;
+    justify-content: center;
+    color: #189ad6;
+    margin-bottom:20px;
+    text-decoration: underline;
+}
+
+button
+{
+    background: white;
+    color: #189ad6;
+
+}
+
+.collapse
+{
+    background: white;
+    color: #189ad6;
+}
+
+#knapp
+{
+    display: flex;
+
 }
